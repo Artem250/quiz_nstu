@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Викторина с вариантами ответа</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="header-bottom">
+                <div class="header-logo">
+                    <a href="/">
+                        <img class="header__logo-full" src="/imgs/logo_new.png" alt="НЭТИ" id="logo">
+                    </a>
+                </div>
+                
+            </div>
+                <nav class="header__menu-top">
+                    <div class="header__menu-item js-header-menu-item">
+                        <a class="header__menu-item__link link-black " href="quiz.html"><span>Викторины НГТУ НЭТИ</span></a>
+                    </div>  
+                    <div class="header__menu-item js-header-menu-item">
+                        <a class="header__menu-item__link link-black " href="main/main.html"><span>Главная</span></a>
+                    </div>            
+                    <div class="header__menu-item js-header-menu-item">
+                        <a class="header__menu-item__link link-black " href="/profile/profile.html"><span>Мой профиль</span></a>
+                    </div>            
+                    <div class="header__menu-item js-header-menu-item">
+                        <a class="header__menu-item__link link-black " href="/Innovation"><span>Рейтинг</span></a>            
+                    </div>            
+                    <div class="header__menu-item js-header-menu-item">
+                        <a class="header__menu-item__link link-black " href="/" id="random-link"><span>Случайная викторина</span></a>
+                    </div>       
+                </nav>  
+        </header>
+        
+        <div class="quiz">
+            <h1 class="quiz-theme">Название темы</h1>
+            <div class="question">
+                <h3 class="question-text">Вопрос 1: ...?</h3>
+                <div class="answer-card" data-value="a">Вариант1</div>
+                <div class="answer-card" data-value="b">Вариант2</div>
+                <div class="answer-card" data-value="c">Вариант3</div>
+                <div class="answer-card" data-value="d">Вариант4</div>
+            </div>
+            <div class="question">
+                <h3 class="question-text">Вопрос 2: ...?</h3>
+                <div class="answer-card" data-value="a">Вариант1</div>
+                <div class="answer-card" data-value="b">Вариант2</div>
+                <div class="answer-card" data-value="c">Вариант3</div>
+                <div class="answer-card" data-value="d">Вариант4</div>
+            </div>
+            <div class="question">
+                <h3 class="question-text">Вопрос 3: ...?</h3>
+                <div class="answer-card" data-value="a">Вариант1</div>
+                <div class="answer-card" data-value="b">Вариант2</div>
+                <div class="answer-card" data-value="c">Вариант3</div>
+                <div class="answer-card" data-value="d">Вариант4</div>
+            </div>
+            <div class="question">
+                <h3 class="question-text">Вопрос 4: ...?</h3>
+                <div class="answer-card" data-value="a">Вариант1</div>
+                <div class="answer-card" data-value="b">Вариант2</div>
+                <div class="answer-card" data-value="c">Вариант3</div>
+                <div class="answer-card" data-value="d">Вариант4</div>
+            </div>
+            <div class="question">
+                <h3 class="question-text">Вопрос 5: ...?</h3>
+                <div class="answer-card" data-value="a">Вариант1</div>
+                <div class="answer-card" data-value="b">Вариант2</div>
+                <div class="answer-card" data-value="c">Вариант3</div>
+                <div class="answer-card" data-value="d">Вариант4</div>
+            </div>
+
+            <button id="confirmAnswer">Ответить</button>
+            <button id="nextQuestion">Следующий вопрос</button>
+            
+            
+            <div class="message"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

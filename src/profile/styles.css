@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'Stem semilight'; 
+	src: url(/fonts/Stem-SemiLight.ttf); 
+}
+@font-face {
+	font-family: 'Stem bold'; 
+	src: url(/fonts/Stem-Bold.ttf); 
+}
+
+
+
+body {
+    font-family: 'Stem semilight';
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #000;
+}
+
+
+.header__menu-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    /*border: 1px red  solid;*/
+    
+}
+
+.header__menu-item {
+    
+    font-family: 'Stem bold', sans-serif;
+    letter-spacing: .04em;
+    
+    margin-bottom: 8px;
+    /*border: 1px red  solid;*/
+}
+
+
+
+
+
+
+
+
+.page-header {
+    display: flex;
+    background-image: url('/imgs/cover-faculty2.jpg');
+    /*border: 1px red  solid;*/
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-logo {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+
+.header-text {
+    padding-left: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+.profile {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile img {
+    max-width: 100%;
+}
+.personal-info {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.line {
+    width: 100%;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+}
+.ratings {
+    text-align:center;
+    margin-top: 20px;
+}
+.rating-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.ava {
+    padding-right: 10px;
+}

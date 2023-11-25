@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Stem semilight'; 
+	src: url(/fonts/Stem-SemiLight.ttf); 
+}
+@font-face {
+	font-family: 'Stem bold'; 
+	src: url(/fonts/Stem-Bold.ttf); 
+}
+
+
+
+body {
+    font-family: 'Stem semilight';
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #000;
+}
+
+
+.header__menu-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    /*border: 1px red  solid;*/
+    
+}
+
+.header__menu-item {
+    
+    font-family: 'Stem bold', sans-serif;
+    letter-spacing: .04em;
+    
+    margin-bottom: 8px;
+    /*border: 1px red  solid;*/
+}
+
+
+
+
+
+
+
+
+.page-header {
+    display: flex;
+    background-image: url('/imgs/cover-faculty2.jpg');
+    /*border: 1px red  solid;*/
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-logo {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+
+.header-text {
+    padding-left: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+.quiz {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.quiz-theme {
+    margin-top: 200px;
+    font-family: 'Stem semilight';
+}
+
+.question {
+    display: none;
+    justify-content: center;
+    /*border: 1px red  solid;*/
+    margin-bottom: 10px
+}
+
+.answer-card {
+    display: inline-block;
+    vertical-align: middle;    
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.selected {
+    background-color: #ccc; /* Серый фон для выбранных карточек */
+    /*cursor: not-allowed;  Смена курсора для выбранных карточек */
+}
+
+.message {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.message.correct {
+    background-color: green;
+}
+
+.message.incorrect {
+    background-color: red;
+}
